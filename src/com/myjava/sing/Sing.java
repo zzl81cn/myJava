@@ -1,3 +1,4 @@
+package com.myjava.sing;
 
 public class Sing {
 static void sing(){

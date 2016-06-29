@@ -1,3 +1,5 @@
+package com.myjava.sing;
+
 public class TestSing {
 
 	/**
