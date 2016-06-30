@@ -1,4 +1,4 @@
-package com.myjava.oop;
+package com.myjava.oop4inherit;
 
 /**
  * Created by zhouzilong on 2016/6/27.
