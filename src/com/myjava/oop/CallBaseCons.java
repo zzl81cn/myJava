@@ -3,7 +3,10 @@ package com.myjava.oop;
 /**
  * Created by zhouzilong on 2016/6/30.
  * about 子类调用父类构造器
- * tip:子类构造器执行体的第一行使用super显示调用父类构造器，系统将根据super调用里传入的实参列表调用父类对应的构造器。
+ * #super调用的是其父类的构造器，必须出现在子类构造器执行体中的第一行,而this调用的是同一个类中重载的构造器，所以this调用和super调用不会同时出现。
+ * #子类构造器调用父类构造器分如下几种情况：
+ * tip:
+ * 1.子类构造器执行体的第一行使用super显示调用父类构造器，系统将根据super调用里传入的实参列表调用父类对应的构造器。
  */
 class Base {
     public double size;
