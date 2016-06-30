@@ -26,6 +26,13 @@ public class SubClass extends BaseClass {
     }
 
     public static void main(String[] args) {
-
+        BaseClass bc = new BaseClass();
+        System.out.println(bc.book);
+        bc.base();
+        bc.test();
+        SubClass sc = new SubClass();
+        System.out.println(sc.book);
+        sc.base();
+        sc.test();
     }
 }
