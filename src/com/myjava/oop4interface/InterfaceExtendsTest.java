@@ -2,6 +2,7 @@ package com.myjava.oop4interface;
 
 /**
  * Created by zhouzilong on 2016/7/1.
+ * #lesson 6.6.3
  */
 interface interfaceA {
     int PRO_A = 5;
