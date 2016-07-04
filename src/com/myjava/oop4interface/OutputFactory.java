@@ -11,7 +11,10 @@ public class OutputFactory {
     }
 
     public static void main(String[] args) {
+        // 实例化OutputFactory
         OutputFactory of = new OutputFactory();
+        // 将OutputFactory实例的getOutput()传入Computer实例，得以将工厂里面希望使用的Output实现类实例传入。
+        // 因为此时Computer与Printer或BetterPrinter已完全分离
         Computer c = new Computer(of.getOutput());
         c.keyIn("SSH");
         c.keyIn("Crazy Java");
