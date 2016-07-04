@@ -5,6 +5,8 @@ package com.myjava.oop4interface;
  * #about 命令模式
  */
 public class AddCommand implements Command {
+
+    @Override
     public void process(int [] target){
         int sum = 0;
         for(int tmp: target){
