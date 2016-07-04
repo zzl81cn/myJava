@@ -8,7 +8,7 @@ public class BetterPrinter implements Output {
     private int dataNum = 0;
     @Override
     public void out() {
-        while(dataNum >= 0){
+        while(dataNum > 0){
             System.out.println("HighSpeed printer is working: " + printData[0]);
             System.arraycopy(printData, 1, printData, 0, --dataNum);
         }
