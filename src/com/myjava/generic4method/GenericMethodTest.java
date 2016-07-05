@@ -28,6 +28,7 @@ public class GenericMethodTest {
         Collection<Number> cn = new ArrayList<>();
         // Number types
         fromArrayToCollection(ia, cn);
+        System.out.println("Number types Collection size is: " + cn.size());
         // Number types
         fromArrayToCollection(fa, cn);
         // Number types
