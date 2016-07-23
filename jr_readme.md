@@ -11,7 +11,7 @@
         AND jo.delete_status = 0
     </select>
 
-## 紧挨着
+## 紧挨着 DirectOrderServiceImpl(使用List<Map<String, Object>>存结果，不需要这个，也不需要vo……)
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsGoodPhotoTagDao.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsOrderDao.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\service\impl\DirectOrderServiceImpl.java
