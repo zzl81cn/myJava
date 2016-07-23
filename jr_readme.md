@@ -14,6 +14,12 @@
 ## 紧挨着 DirectOrderServiceImpl(使用List<Map<String, Object>>存结果，不需要这个，也不需要vo……)
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsGoodPhotoTagDao.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsOrderDao.java
-## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\service\impl\DirectOrderServiceImpl.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\impl\JrdsOrderLogDaoImpl.java
+> add
+	@Override
+	public List<Map<String, Object>> selectOrderListByOrderStatus(Map<String, Object> params) {
+	    return (List<Map<String, Object>>) this.queryForList("com.hiersun.jewelry.api.direct.mapper.JrdsOrderMapper.selectOrderListByOrderStatus", params);
+	}
+
+## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\service\impl\DirectOrderServiceImpl.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\impl\JrdsOrderDaoImpl.java
