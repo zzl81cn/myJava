@@ -12,4 +12,8 @@
     </select>
 
 ## 紧挨着
+## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsGoodPhotoTagDao.java
+## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\JrdsOrderDao.java
 ## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\service\impl\DirectOrderServiceImpl.java
+## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\impl\JrdsOrderLogDaoImpl.java
+## D:\Workspaces\hiersun\jr-api-business-provider\src\main\java\com\hiersun\jewelry\api\direct\dao\impl\JrdsOrderDaoImpl.java
